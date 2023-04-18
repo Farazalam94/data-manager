@@ -1,0 +1,49 @@
+.containment {  
+    position: absolute;
+    left: 25%;
+    top: 5%;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 30px;
+}
+.container {
+  text-align: left;
+  overflow: hidden;
+  width: 80%;
+  margin: 0 auto;
+  display: table;
+  background-color: #185875;
+}
+.container th {
+  font-weight: bold;
+  font-size: 1em;
+  text-align: left;
+  color: #040505;
+}
+.container td {
+  font-weight: normal;
+  font-size: 1em;
+  -webkit-box-shadow: 0 2px 2px -2px #0e1119;
+  -moz-box-shadow: 0 2px 2px -2px #0e1119;
+  box-shadow: 0 2px 2px -2px #0e1119;
+}
+
+.wrapper {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  min-width: 250px;
+  color: #0e1119;
+}
+.id{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    min-width: 50px;   
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
