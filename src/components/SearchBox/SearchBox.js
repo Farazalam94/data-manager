@@ -8,6 +8,7 @@ const SearchBox = ({ apiData, setFilteredData, setSearch, search }) => {
         item.email.toLowerCase().includes(search.toLowerCase())
     );
     result.length !== 0 ? setFilteredData(result) : setFilteredData(apiData);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [search]);
   const handleSearch = (e) => setSearch(e.target.value);
   return (
